@@ -1,0 +1,26 @@
+html {
+    background: linear-gradient(90deg, rgb(13, 0, 184) 0%, rgb(60, 203, 220) 70%);
+}
+
+.whoIs {
+    grid-area: whoIs;
+}
+
+.stats {
+    grid-area: stats;
+}
+
+.type {
+    grid-area: type;
+}
+
+.cont {
+    background: linear-gradient(90deg, rgb(13, 0, 184) 0%, rgb(60, 203, 220) 70%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+        'whoIs stats'
+        'type type'
+    ;
+}

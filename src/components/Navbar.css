@@ -1,0 +1,30 @@
+.contenedor {
+    background-color: #000000;
+}
+
+.active {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.inactive {
+    color: #3ccbdc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active:hover , .inactive:hover {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active .pokeballActive {
+    display: block;
+    width: 20px;
+}
+
+.inactive .pokeballActive {
+    display: none;
+}
